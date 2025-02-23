@@ -84,8 +84,8 @@ const upload = multer({ dest: "uploads/" });
 const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user: process.env.EMAIL, // Use environment variables for security
-        pass: process.env.EMAIL_PASSWORD,
+         user: 'bathran14sri@gmail.com',
+      pass: 'gbnq ktzt nayj jirk', 
     }
 });
 
