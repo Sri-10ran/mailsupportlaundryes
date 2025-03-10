@@ -100,7 +100,7 @@ app.post("/send-email", upload.single("photo"), async (req, res) => {
 
         const mailOptions = {
             from: process.env.EMAIL,
-            to: "bathranpro@gmail.com",
+            to: "bathran14sri@gmail.com",
             subject: `New Complaint - Order ID: ${order_id}`,
             text: `Order ID: ${order_id}\nProblem Description: ${problem_description}`,
             attachments: photo ? [{ filename: photo.originalname, path: photo.path }] : []
